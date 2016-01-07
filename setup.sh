@@ -11,9 +11,7 @@ sudo yum install tmux
 sudo yum install vim
 
 sh git-setup.sh
-
-sudo yum install tig
-
+sh tig-setup.sh
 sh dotfiles.sh
 sh vim-setup.sh
 sh nodebrew-setup.sh
