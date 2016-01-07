@@ -1,4 +1,7 @@
-wget git.io/nodebrew
+wget git.io/nodebrew ~/nodebrew/
+
+cd ~/nodebrew
+
 perl nodebrew setup
 
 nodebrew install-binary latest
